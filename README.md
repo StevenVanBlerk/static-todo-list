@@ -1,6 +1,6 @@
 This is a Next.js project bootstrapped with `create-next-app`
 
-This project is being hosted by Vercel and can be seen online from [here](https://static-todo-list-stevenvb.vercel.app/).
+This project is being hosted by Vercel and can be seen online from [here](https://static-todo-list-stevenvanblerk.vercel.app/).
 
 Alternatively, you can run this project locally 👇
 
