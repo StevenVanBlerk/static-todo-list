@@ -1,0 +1,28 @@
+.container {
+  display: grid;
+  gap: var(--spacing-large);
+  width: 100%;
+}
+
+.heading {
+  display: grid;
+  padding: var(--spacing-large) var(--spacing-medium);
+  gap: var(--spacing-small);
+  color: var(--color-greyscale-900);
+}
+
+.itemHeader {
+  display: flex;
+  gap: var(--spacing-small);
+  align-items: center;
+}
+
+.icon {
+  height: 16px;
+  width: 16px;
+}
+.checkboxGroup {
+  display: grid;
+  gap: var(--spacing-small);
+  padding: var(--spacing-small);
+}

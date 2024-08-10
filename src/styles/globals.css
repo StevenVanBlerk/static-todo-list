@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'SSP ExtraLight';
+  src: url('/fonts/SourceSansPro/SourceSansPro-ExtraLight.ttf')
+    format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SSP Light';
+  src: url('/fonts/SourceSansPro/SourceSansPro-Light.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SSP Regular';
+  src: url('/fonts/SourceSansPro/SourceSansPro-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SSP Semibold';
+  src: url('/fonts/SourceSansPro/SourceSansPro-Semibold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SSP Bold';
+  src: url('/fonts/SourceSansPro/SourceSansPro-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-off-white: #eee;
+  --color-dark-grey: #ccc;
+  --color-greyscale-300: #ddd;
+  --color-greyscale-500: #999999;
+  --color-greyscale-900: #333333;
+  --color-success-green: #00b797;
+  --color-success-light: #f2fbfa;
+
+  --spacing-extra-large: 45px;
+  --spacing-large: 32px;
+  --spacing-medium: 24px;
+  --spacing-small: 16px;
+  --spacing-extra-small: 8px;
+  --spacing-mini: 2px;
+
+  --font-size-large: 22px;
+  --font-size-medium: 18px;
+  --font-size-small: 16px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: SSP Regular;
+  font-weight: 100;
+  font-size: var(--font-size-small);
+  color: var(--color-black);
+}
+span,
+div {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+html,
+body {
+  background-color: var(--color-off-white);
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+main {
+  min-height: 100vh;
+  padding: var(--spacing-extra-large);
+  display: grid;
+  justify-items: center;
+}
+
+h2 {
+  font-family: 'SSP Bold';
+  font-size: var(--font-size-large);
+  color: var(--color-greyscale-900);
+}
+
+h3 {
+  font-family: 'SSP Regular';
+  font-size: var(--font-size-medium);
+  color: var(--color-greyscale-900);
+}
+
+:focus {
+  outline: 1px solid var(--color-greyscale-900);
+}

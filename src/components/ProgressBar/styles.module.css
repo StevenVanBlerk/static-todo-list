@@ -1,0 +1,15 @@
+.outerBar {
+  background-color: var(--color-success-light);
+  border-radius: 24px;
+}
+
+.innerBar {
+  background-color: var(--color-success-green);
+  border-radius: 16px;
+  padding: var(--spacing-mini) var(--spacing-small);
+  text-align: end;
+  color: var(--color-white);
+  width: fit-content; /* forcing bar to visually initialise at 0% */
+  min-width: fit-content;
+  transition: width 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+}

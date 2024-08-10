@@ -1,0 +1,9 @@
+.card {
+  background-color: var(--color-white);
+  padding: var(--spacing-small);
+  border-radius: 8px;
+  border: 1px solid var(--color-dark-grey);
+  max-width: 820px;
+  width: 100%;
+  height: fit-content;
+}
